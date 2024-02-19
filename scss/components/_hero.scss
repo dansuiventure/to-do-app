@@ -1,0 +1,40 @@
+@use '../components/colors' as *;
+
+.hero-image {
+    background-image: url(../../images/bg-desktop-dark.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 15rem;
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    
+    justify-content: space-between;
+   
+    h1 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        color: $white;
+        letter-spacing: 2rem;
+    }
+
+    .icon-container {
+       align-items: center;
+       display: flex;
+
+       .icon {
+        width: 50px;
+        height: 50px;
+       }
+
+    }
+
+
+}
