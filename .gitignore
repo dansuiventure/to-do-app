@@ -16,8 +16,8 @@
 .prettierignore
 
 # Exclude
-.design
-.style-guide
-.README-template
-.README
-.node_modules
+design
+style-guide
+README-template
+README
+node_modules
